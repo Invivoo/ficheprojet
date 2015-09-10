@@ -1,0 +1,17 @@
+<div ng-cloak>
+  <div class="row">
+    <div class="col-md-12">
+      <div ng-controller="HomeController as homeController" class="alert alert-info">
+        <h1 style="float: right;">
+          <a ui-sref="site.home.user.mission.add" title="Add New Mission"
+            ng-show="$state.includes('site.home.user')&&!$state.includes('site.home.user.mission.add')">
+            <span class="glyphicon glyphicon-plus-sign" style="color:#449d44"/>
+          </a>
+        </h1>
+        <h1 class="lead" translate="HOME_TITLE_MSG" />
+        <span class="label label-primary" translate="HOME_LOGGED_MESSAGE_MSG" translate-values="{username: '{{homeController.account.login}}'}" />
+      </div>
+    </div>
+  </div>
+  <div ui-view="detail"></div>
+</div>

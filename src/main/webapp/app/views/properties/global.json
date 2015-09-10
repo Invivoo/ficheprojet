@@ -1,0 +1,90 @@
+{
+"HOME_LOGGED_MESSAGE_MSG":"You are logged in as \"{{username}}\".",
+"HOME_TITLE_MSG":"fiche projet <small>missions management</small>",
+"FOOTER_MSG": "Copyright © 2015 - All Rights Reserved - INVIVOO",
+
+"ACCESSDENIED_403_MSG": "You are not authorized to access the page.",
+
+"ACCOUNT_ACTIVATE_ERROR_STATUS_MSG":"<strong>Your user could not be activated.</strong> Please use the registration form to sign up.",
+"ACCOUNT_ACTIVATE_SUCCESS_STATUS_MSG":"<strong>Your user has been activated.</strong> Please <a href=\"#/account/login\">authenticate</a>.",
+
+"ACCOUNT_LOGIN_ERROR_STATUS_MSG": "<strong>Authentication failed!</strong> Please check your credentials and try again.",
+
+"ACCOUNT_PASSWORD_ERROR_STATUS_MSG":  "<strong>An error has occurred!</strong> The password could not be changed.",
+"ACCOUNT_PASSWORD_SUCCESS_STATUS_MSG": "<strong>Password changed!</strong>",
+"ACCOUNT_PASSWORD_DO_NOT_MATCH_STATUS_MSG": "The password and its confirmation do not match!",
+"ACCOUNT_PASSWORD_INCORRECT_PASSWORD_STATUS_MSG": "Your password is required to be at least 5 characters and cannot be longer than 100 characters.",
+
+"ACCOUNT_PASSWORD_TITLE_MSG": "Password for [<b>{{username}}</b>]",
+"ACCOUNT_PASSWORD_VALIDATE_CONFIRMPASSWORD_MAXLENGTH_MSG": "Your confirmation password cannot be longer than 100 characters.",
+"ACCOUNT_PASSWORD_VALIDATE_CONFIRMPASSWORD_MINLENGTH_MSG": "Your confirmation password is required to be at least 5 characters.",
+"ACCOUNT_PASSWORD_VALIDATE_CONFIRMPASSWORD_REQUIRED_MSG": "Your confirmation password is required.",
+"ACCOUNT_PASSWORD_VALIDATE_NEWPASSWORD_MAXLENGTH_MSG": "Your password cannot be longer than 100 characters.",
+"ACCOUNT_PASSWORD_VALIDATE_NEWPASSWORD_MINLENGTH_MSG": "Your password is required to be at least 5 characters.",
+"ACCOUNT_PASSWORD_VALIDATE_NEWPASSWORD_REQUIRED_MSG": "Your password is required.",
+
+"ACCOUNT_REGISTER_ERROR_STATUS_MSG": "<strong>Registration failed!</strong> Please try again later.",
+"ACCOUNT_REGISTER_SUCCESS_STATUS_MSG": "<strong>Registration saved!</strong> Please check your email for confirmation.",
+"ACCOUNT_REGISTER_PASSWORD_DO_NOT_MATCH_STATUS_MSG": "The password and its confirmation do not match!",
+"ACCOUNT_REGISTER_ALREADY_USED_EMAIL_STATUS_MSG": "<strong>E-mail is already in use!</strong> Please choose another one.",
+"ACCOUNT_REGISTER_ALREADY_USED_LOGIN_STATUS_MSG": "<strong>Login name already registered!</strong> Please choose another one.",
+
+"ACCOUNT_REGISTER_VALIDATE_CONFIRMPASSWORD_MAXLENGTH_MSG": "Your confirmation password cannot be longer than 100 characters.",
+"ACCOUNT_REGISTER_VALIDATE_CONFIRMPASSWORD_MINLENGTH_MSG": "Your confirmation password is required to be at least 5 characters.",
+"ACCOUNT_REGISTER_VALIDATE_CONFIRMPASSWORD_REQUIRED_MSG": "Your confirmation password is required.",
+"ACCOUNT_REGISTER_VALIDATE_EMAIL_INVALID_MSG": "Your e-mail is invalid.",
+"ACCOUNT_REGISTER_VALIDATE_EMAIL_MAXLENGTH_MSG": "Your e-mail cannot be longer than 256 characters.",
+"ACCOUNT_REGISTER_VALIDATE_EMAIL_MINLENGTH_MSG": "Your e-mail is required to be at least 5 characters.",
+"ACCOUNT_REGISTER_VALIDATE_EMAIL_REQUIRED_MSG": "Your e-mail is required.",
+"ACCOUNT_REGISTER_VALIDATE_LOGIN_MAXLENGTH_MSG": "Your login cannot be longer than 100 characters.",
+"ACCOUNT_REGISTER_VALIDATE_LOGIN_MINLENGTH_MSG": "Your login is required to be at least 1 character.",
+"ACCOUNT_REGISTER_VALIDATE_LOGIN_PATTERN_MSG": "Your login can only contain lower-case letters and digits.",
+"ACCOUNT_REGISTER_VALIDATE_LOGIN_REQUIRED_MSG": "Your login is required.",
+"ACCOUNT_REGISTER_VALIDATE_NEWPASSWORD_MAXLENGTH_MSG": "Your password cannot be longer than 100 characters.",
+"ACCOUNT_REGISTER_VALIDATE_NEWPASSWORD_MINLENGTH_MSG": "Your password is required to be at least 5 characters.",
+"ACCOUNT_REGISTER_VALIDATE_NEWPASSWORD_REQUIRED_MSG": "Your password is required.",
+
+"ACCOUNT_RESET_FINISH_ERROR_STATUS_MSG": "Your password couldn't be reset. Remember a password request is only valid for 24 hours.",
+"ACCOUNT_RESET_FINISH_SUCCESS_STATUS_MSG": "Check your e-mails for details on how to reset your password.",
+"ACCOUNT_RESET_FINISH_KEYMISSING_MSG": "The reset key is missing.",
+"ACCOUNT_RESET_FINISH_PASSWORD_DO_NOT_MATCH_STATUS_MSG": "The password and its confirmation do not match!",
+"ACCOUNT_RESET_FINISH_INCORRECT_PASSWORD_STATUS_MSG":"tobe",
+
+"ACCOUNT_RESET_FINISH_VALIDATE_CONFIRMPASSWORD_MAXLENGTH_MSG": "Your confirmation password cannot be longer than 100 characters.",
+"ACCOUNT_RESET_FINISH_VALIDATE_CONFIRMPASSWORD_MINLENGTH_MSG": "Your confirmation password is required to be at least 5 characters.",
+"ACCOUNT_RESET_FINISH_VALIDATE_CONFIRMPASSWORD_REQUIRED_MSG": "Your confirmation password is required.",
+"ACCOUNT_RESET_FINISH_VALIDATE_NEWPASSWORD_MAXLENGTH_MSG": "Your password cannot be longer than 100 characters.",
+"ACCOUNT_RESET_FINISH_VALIDATE_NEWPASSWORD_MINLENGTH_MSG": "Your password is required to be at least 5 characters.",
+"ACCOUNT_RESET_FINISH_VALIDATE_NEWPASSWORD_REQUIRED_MSG": "Your password is required.",
+
+"ACCOUNT_RESET_REQUEST_SUCCESS_STATUS_MSG": "Check your e-mails for details on how to reset your password.",
+"ACCOUNT_RESET_REQUEST_EMAIL_NOT_REGISTERED_STATUS_MSG": "<strong>E-Mail address isn't registered!</strong> Please check and try again",
+"ACCOUNT_RESET_REQUEST_USER_NOT_ACTIVATED_STATUS_MSG": "<strong>User not Activated !</strong> Please check and try again",
+
+"ACCOUNT_RESET_REQUEST_VALIDATE_EMAIL_INVALID_MSG": "Your e-mail is invalid.",
+"ACCOUNT_RESET_REQUEST_VALIDATE_EMAIL_MAXLENGTH_MSG": "Your e-mail cannot be longer than 256 characters.",
+"ACCOUNT_RESET_REQUEST_VALIDATE_EMAIL_MINLENGTH_MSG": "Your e-mail is required to be at least 5 characters.",
+"ACCOUNT_RESET_REQUEST_VALIDATE_EMAIL_REQUIRED_MSG": "Your e-mail is required.",
+
+"ACCOUNT_SETTINGS_ERROR_STATUS_MSG": "<strong>An error has occurred!</strong> Settings could not be saved.",
+"ACCOUNT_SETTINGS_SUCCESS_STATUS_MSG": "<strong>Settings saved!</strong>",
+"ACCOUNT_SETTINGS_ALREADY_USED_EMAIL_STATUS_MSG": "<strong>E-mail is already in use!</strong> Please choose another one.",
+
+"ACCOUNT_SETTINGS_TITLE_MSG": "User settings for [<b>{{username}}</b>]",
+"ACCOUNT_SETTINGS_VALIDATE_EMAIL_INVALID_MSG": "Your e-mail is invalid.",
+"ACCOUNT_SETTINGS_VALIDATE_EMAIL_MAXLENGTH_MSG": "Your e-mail cannot be longer than 256 characters.",
+"ACCOUNT_SETTINGS_VALIDATE_EMAIL_MINLENGTH_MSG": "Your e-mail is required to be at least 5 characters.",
+"ACCOUNT_SETTINGS_VALIDATE_EMAIL_REQUIRED_MSG": "Your e-mail is required.",
+"ACCOUNT_SETTINGS_VALIDATE_FIRSTNAME_MAXLENGTH_MSG": "Your first name cannot be longer than 256 characters",
+"ACCOUNT_SETTINGS_VALIDATE_FIRSTNAME_MINLENGTH_MSG": "Your first name is required to be at least 1 character",
+"ACCOUNT_SETTINGS_VALIDATE_FIRSTNAME_REQUIRED_MSG": "Your first name is required.",
+"ACCOUNT_SETTINGS_VALIDATE_LASTNAME_MAXLENGTH_MSG": "Your last name cannot be longer than 256 characters",
+"ACCOUNT_SETTINGS_VALIDATE_LASTNAME_MINLENGTH_MSG": "Your last name is required to be at least 1 character",
+"ACCOUNT_SETTINGS_VALIDATE_LASTNAME_REQUIRED_MSG": "Your last name is required.",
+
+"MISSION_ADD_ERROR_STATUS_MSG":"Validation failed",
+"MISSION_ADD_UNIQUE_CONSTRAINT_VIOLATION_STATUS_MSG":"Failed to create, mission already exists",
+"MISSION_EDIT_ERROR_STATUS_MSG":"Validation failed",
+"MISSION_EDIT_UNIQUE_CONSTRAINT_VIOLATION_STATUS_MSG":"Failed to update, mission already exists"
+
+}
